@@ -1,0 +1,37 @@
+.card-list {
+    
+    display: grid;
+    margin: 0 auto ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+  }
+  
+ 
+  .card-container {
+    padding: 25px;
+    display:flex;
+    flex-direction: column;
+    background-color: #96C291;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  
+
+  }
+  .card-container:hover {
+   transform: scale(1.05)
+  }
+
+  .image{
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 80%;
+   
+  }
+  
+  

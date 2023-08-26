@@ -1,0 +1,17 @@
+.box{
+
+    border-radius:5px;
+    border-color: aquamarine;
+    background: linear-gradient(
+    to bottom ,
+    rgba(238, 238, 242, 0.2)0%,
+    rgba(248, 248, 248, 0.9)100%
+    );
+    padding-bottom:10px;
+    padding-top: 10px;
+    margin-bottom: 35px;
+    width:40%;
+    text-align: center;
+    
+}
+
